@@ -1,0 +1,13 @@
+#range che varia da 3400 a 7800, bin fissati a 1000, funzione per il fondo pol2 per picco1 e retta per picco2, range  [2000-3000, 5600-6400], [1300-3000, 4475-6650], [360-3040, 5300-7666]
+#media picco 1		#err picco 1		#sigma picco 1		#err sigma picco 1		#media picco 2		#err media picco 2		#sigma picco 2		#err sigma picco 2
+2488.83			0.35			82.16			0.31 				6019.66			2.10				132.73			2.45
+2488.01			0.34			84.79			0.32				6020.62			1.88				130.73			1.85
+2488.68			0.35			83.68			0.30  				6016.31			1.89				130.60			1.85
+#range fissato a [2000-3000, 5600-6400], funzione pol2 per picco1, retta per picco2, bin a 2000, bin a 500, bin a 250
+2488.83			0.35			82.15			0.31				6019.27			2.08				132.69			2.42
+2488.85			0.34			81.57			0.31				6019.69			2.11				132.84			2.44   
+2488.74			0.35			81.48			0.31				6019.66			2.14				132.78			2.49
+#range fissato a [2000-3000, 5600-6400], bin a 1000, funzione fissata retta per picco2 poiché bkg piatto, exp per picco1, poi retta, poi gauss
+2488.83			0.35			81.80			0.31				6019.66			2.10				132.73			2.45
+2488.86			0.35			81.47			0.31				6019.66			2.10				132.73			2.45
+2488.90			0.35			81.54			0.32				6019.66			2.10				132.73			2.45

@@ -1,0 +1,13 @@
+#bin fissati a 1024, bkg function pol2, range 2800-4010, 2304-4216, 3112-3856, 2064-4336
+#media picco 1		#err picco 1		#sigma picco 1		#err sigma picco 1	
+3451.13			0.11			104.45			0.11 	
+3450.47			0.11			108.03			0.10
+3455.45			0.12			104.58			0.12 
+3450.88			0.11			107.80			0.09 
+#range fissato 2800-4010, bkg function pol2, bin 512, 292, 2048
+3451.09			0.11			104.58			0.09
+3451.13			0.12			104.68			0.11
+3451.1			0.11			104.54			0.09  
+#range fissato 2800-4010, bin a 1024, bkg function expo, retta
+3450.33			0.11			106.34			0.09
+3451.08			0.12			104.76			0.09  

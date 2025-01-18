@@ -1,0 +1,105 @@
+Larghezza segnale discriminato pmt05: media tra 44, 43.2, 45.6
+
+Larghezza segnale discriminato pmt04: media tra 46, 42, 46
+Tensione DISCR.2 -40.7mV
+
+Larghezza segnale discriminato pmt03: media tra 50, 51, 56
+Tensione DISCR.3 -40.0mV
+
+Si misura la frequenza vista al contatore (è un rate) e si confronta con quella vista all'oscilloscopio: 
+91, 84, 64, 131, 92, 79 (oscilloscopio)
+1260, 1231, 1234, 1236, 1202
+
+Si manda cavo da 2ns da PMT05 a IN1 DISCR.1 (terminato 50ohm IN2 del DISCR.1)
+Si manda cavo da 3ns da OUT1 DISCR.1 a CH1 terminato 50ohm
+Si manda cavo da 3ns da OUT2 DISCR.1 a IN1 COINCID.1
+
+Si manda cavo da 2ns da PMT04 a IN1 DISCR.2 (terminato 50ohm IN2 del DISCR.2)
+Si manda cavo da 3ns da OUT1 DISCR.2 a CH2 terminato 50ohm
+Si manda cavo da 3ns da OUT2 DISCR.2 a IN2 COINCID.1
+
+Si manda cavo da 3ns da OUT1 COINCID.1 a CH4 terminato 50ohm
+Si manda cavo da 3ns da LIN1 COINCID.1 a CH3 terminato 50ohm
+
+LIN->ampiezza 760mV+-8mV(sensibilità cursore)
+OUT->ampiezza 816mV+-8mV( " )
+ritardo della coincidenza: 9.2ns+-0.2 sensibilità (dal segnale che arriva dopo)= rit. coincid. +  rit. cavo da 3ns (i cavi che arrivano all'oscilloscopio dal discriminatore hanno la stessa lunghezza di quelli che dal discriminatore arrivano all'unità di coincidenza).
+Dire del ritardo tra CH1 e CH2 dovuto al tempo di transito del fotomoltiplicatore.
+
+Si manda cavo 3ns da DISCR.2 OUT2 a COINCID.1 IN 1 PMT04
+Si manda cavo 3ns da DISCR.3 OUT2 a COINCID.1 IN 3 PMT03
+Misura freq. PMT04->884, 820, 837, 829, 871
+Misura freq. PMT03->980, 948, 973, 959, 974
+
+
+STIME EFFICIENZE
+
+Si mandano i cavi da 3ns dalle uscite dei discriminatori per ciascun PMT agli ingressi delle coincidenze, e dalle uscite delle coincidenze ai contatori.
+
+Su COINCID. 7 ->triple
+SU COINCID. 5 ->doppie
+Su COINCID:1,2,3->singole (per PMT5, PMT04, PMT03 in ordine)
+
+DOPPIE TRA 1 E 2/TRIPLE/SINGOLA PMT5/SINGOLA PMT4/SINGOLA PMT 3 (10 SECONDI)
+126	95	1240	796	1003
+139	96	1185	840	1023
+166	111	1190	893	1034
+137	95	1232	804	995
+142	99	1165	862	981
+125	99	1222	864	1010
+132	97	1238	881	1071
+147	118	1239	879	996
+134	95	1299	850	1001
+132	96	1212	825	997
+
+DOPPIE TRA 1 E 3/TRIPLE/SINGOLA PMT5/SINGOLA PMT4/SINGOLA PMT 3 (10 SECONDI)
+111	91	1234	795	960
+129	110	1172	840	1001
+133	115	1249	751	935
+133	111	1197	791	972
+109	97	1143	764	967
+126	104	1222	804	988
+104	86	1219	841	965
+136	116	1221	876	967
+120	99	1182	808	967
+139	118	1207	834	1045
+
+DOPPIE TRA 2 E 3/TRIPLE/SINGOLA PMT5/SINGOLA PMT4/SINGOLA PMT 3 (10 SECONDI)
+172	122	1241	847	1055
+149	104	1233	851	970
+140	105	1171	800	975
+150	108	1267	867	1016
+136	97	1226	808	993
+155	114	1228	787	971
+147	105	1237	810	1020
+146	106	1259	800	1001
+147	109	1247	836	993
+142	91	1227	814	1026
+
+
+
+
+STIMA EFFICIENZA PMT04 AL VARIARE DELLA TENSIONE DI ALIMENTAZIONE DEL FOTOMOLTIPLICATORE
+
+HV ALIMENTAZIONE/DOPPIE TRA 1 E 3/TRIPLE/SINGOLA PMT5/SINGOLA PMT4/SINGOLA PMT 3 (100 SECONDI)
+
+1520V	1270	16	12178	37	10470
+1550V	1179	33	12019	137	10228
+1570V	1248	113	12373	344	10192
+1600V	1307	311	12279	717	10473
+1610V	1314	366	12133	938	10322
+1625V	1264	509	12135	1432	10281
+1640V	1273	716	12203	2467	10349
+1680V	1248	1026	12358	7854	10312
+1700V	1184	1070	11983	12221	10126
+1720V	1218	1137	11997	17812	10203
+1750V	1268	1217	12080	29836	10116
+1770V	1259	1214	12375	85035	10288
+1800V	1223	1184	12213	1781165	10571
+
+
+
+
+
+
+

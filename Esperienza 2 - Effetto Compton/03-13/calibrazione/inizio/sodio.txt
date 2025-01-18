@@ -1,0 +1,3 @@
+ADC Conversions Number : 114626
+Time (ms) : 304063
+Live Time (ms) : 303747

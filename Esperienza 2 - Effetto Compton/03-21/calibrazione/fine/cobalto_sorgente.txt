@@ -1,0 +1,3 @@
+DC Conversions Number : 1417731
+Time (ms) : 299366
+Live Time (ms) : 295132
